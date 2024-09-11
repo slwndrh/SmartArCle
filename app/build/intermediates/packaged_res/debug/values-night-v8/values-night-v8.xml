@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SmartArCle" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/dark_blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">@color/dark_blue</item>
+        
+        <item name="android:windowBackground">@color/dark_blue</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+
+        
+        <item name="android:textColorPrimary">@color/white</item>
+
+        
+        <item name="android:textColorSecondary">@color/white</item>
+
+        
+        <item name="android:textColorPrimaryInverse">@color/dark_blue</item>
+    </style>
+</resources>
