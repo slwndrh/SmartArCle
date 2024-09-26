@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/vehicle"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartArCle"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB3ameMHW0WCizvVMTW-T5Tts9ce8ILgkM" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name=".data.GeofenceService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <service
+            android:name=".data.FirebaseMessageService"
+            android:exported="false"
+            android:permission="TODO">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".data.NotificationService" />
+
+        <receiver
+            android:name=".owner.GeoBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="GeofenceEvent" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".security.VehicleLocSecurity"
+            android:exported="true"
+            android:label="@string/title_activity_vehicle_loc_security"
+            android:parentActivityName=".security.HomeSecurity"/>
+        <activity
+            android:name=".owner.VehicleLocOwner"
+            android:exported="true"
+            android:label="@string/title_activity_vehicle_loc_owner"
+            android:parentActivityName=".owner.HomeOwner" />
+
+        <activity
+            android:name=".owner.ForgetPwOwner"
+            android:exported="false" />
+        <activity
+            android:name=".security.ForgetPwSecurity"
+            android:exported="false" />
+        <activity
+            android:name=".security.VehicleProfileSecurity"
+            android:exported="false"
+            android:parentActivityName=".Account" />
+        <activity
+            android:name=".security.SettingSecurity"
+            android:exported="false"
+            android:parentActivityName=".Account" />
+        <activity
+            android:name=".security.HomeSecurity"
+            android:exported="false" />
+        <activity
+            android:name=".owner.VehicleProfileOwner"
+            android:exported="false"
+            android:parentActivityName=".Account" />
+        <activity
+            android:name=".owner.ProfileOwner"
+            android:exported="false"
+            android:parentActivityName=".Account" />
+        <activity
+            android:name=".owner.SettingOwner"
+            android:exported="false"
+            android:parentActivityName=".Account" />
+        <activity
+            android:name=".owner.HomeOwner"
+            android:exported="false" />
+        <activity
+            android:name=".owner.SignUpAsOwner"
+            android:exported="false"
+            android:parentActivityName=".Account" />
+        <activity
+            android:name=".owner.LoginAsOwner"
+            android:exported="false" />
+        <activity
+            android:name=".security.LoginAsSecurity"
+            android:exported="false" />
+        <activity
+            android:name=".Account"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

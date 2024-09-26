@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_profile_owner.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_profile_owner.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_setting_owner.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_setting_owner.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_login_as_owner.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_login_as_owner.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_setting_security.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_setting_security.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_splash_screen.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_vehicle_loc_owner.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_vehicle_loc_owner.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_vehicle_profile_owner.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_vehicle_profile_owner.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_login_as_security.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_login_as_security.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_sign_up_as_owner.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_sign_up_as_owner.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_account.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_account.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_forget_pw_owner.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_forget_pw_owner.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_forget_pw_security.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_forget_pw_security.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_vehicle_loc_security.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_vehicle_loc_security.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/item_vehicle_profile_security.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/item_vehicle_profile_security.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_vehicle_profile_security.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_vehicle_profile_security.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_home_owner.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_home_owner.xml"
+    },
+    {
+        "merged": "com.example.smartarcle.app-mergeDebugResources-76:/layout/activity_home_security.xml",
+        "source": "com.example.smartarcle.app-main-79:/layout/activity_home_security.xml"
+    }
+]

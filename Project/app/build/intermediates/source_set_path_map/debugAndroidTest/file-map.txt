@@ -1,0 +1,5 @@
+com.example.smartarcle.test.app-androidTest-0 D:\Kulon\SmartArCle\Smart ArCle\app\build\generated\res\resValues\androidTest\debug
+com.example.smartarcle.test.app-androidTest-1 D:\Kulon\SmartArCle\Smart ArCle\app\build\generated\res\rs\androidTest\debug
+com.example.smartarcle.test.app-mergeDebugAndroidTestResources-2 D:\Kulon\SmartArCle\Smart ArCle\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.smartarcle.test.app-mergeDebugAndroidTestResources-3 D:\Kulon\SmartArCle\Smart ArCle\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.smartarcle.test.app-merged_res-4 D:\Kulon\SmartArCle\Smart ArCle\app\build\intermediates\merged_res\debugAndroidTest
